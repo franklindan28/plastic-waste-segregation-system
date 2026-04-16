@@ -16,7 +16,8 @@ This project uses YOLOv8 and microcontroller automation to classify and sort pla
 - Raspi
 
 ## 📷 Demo
-(Add images or video here)
+<img src="assets/images/allowed plastic type.jpg" width="500"/>
+<img src="assets/images/side view of the machine.jpg" width="500"/>
 
 ## 👨‍💻 Author
 Franklin D. Dañas Jr
