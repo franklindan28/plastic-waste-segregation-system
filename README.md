@@ -1,4 +1,4 @@
-# Smart Waste Segregation System
+# Plastic Waste Segregation System
 
 ## 📌 Overview
 This project uses YOLOv8 and microcontroller automation to classify and sort plastic waste (PET, HDPE, PP).
