@@ -25,6 +25,10 @@ This project uses YOLOv8 and microcontroller automation to classify and sort pla
 <img src="assets/images/confusion_matrix_normalized (2).png" width="500"/>
 <img src="assets/images/labels (2).jpg" width="500"/>
 
+## 📊 Detection Result using custom model
+<img src="assets/images/val_batch0_pred (1).jpg" width="500"/>
+<img src="assets/images/val_batch1_pred (1).jpg" width="500"/>
+
 ## 📷 Video Demo
 [![Watch Demo](assets/images/Screenshot%202026-04-17%20034108.png)](https://www.canva.com/design/DAGXKBWeW9Q/vsMHuxm6JbQ6hHNyjmG0VQ/watch?utm_content=DAGXKBWeW9Q&utm_campaign=designshare&utm_medium=link&utm_source=editor&fbclid=IwY2xjawROEnFleHRuA2FlbQIxMQBicmlkETF0eHJzTGtFbWJvR3FHQUdac3J0YwZhcHBfaWQBMAABHqyMDUwqUg8fL-dHyHp38XLNqB32l9dda2W0hhhvcfGa1LEda2QdqpH1Su1C_aem_Dzm5-V7q7AFO5ma9rgsFtQ)
 
