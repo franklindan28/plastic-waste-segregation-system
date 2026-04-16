@@ -13,7 +13,7 @@ This project uses YOLOv8 and microcontroller automation to classify and sort pla
 - YOLOv8
 - OpenCV
 - Arduino
-- Raspi
+- Jetson Nano
 
 ## ⚙️ System Architecture
 
