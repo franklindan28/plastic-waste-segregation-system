@@ -1,0 +1,1 @@
+print(" Plastic Waste Segregation System Initialized")
