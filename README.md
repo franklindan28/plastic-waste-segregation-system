@@ -15,6 +15,50 @@ This project uses YOLOv8 and microcontroller automation to classify and sort pla
 - Arduino
 - Raspi
 
+## ⚙️ System Architecture
+
+This system integrates edge AI processing using Jetson Nano with a microcontroller-based control system to automate plastic waste segregation.
+
+### 🔄 Workflow Overview
+
+1. **Image Acquisition**
+   - A USB camera connected to the Jetson Nano captures real-time images of incoming plastic waste.
+
+2. **Edge AI Processing (Jetson Nano)**
+   - YOLOv8 model performs object detection and classification:
+     - PET
+     - HDPE
+     - PP
+     - Unknown
+   - The model outputs the detected class with confidence score.
+
+3. **Decision Logic**
+   - The Jetson Nano determines the appropriate sorting action based on classification.
+
+4. **Communication Interface**
+   - The Jetson Nano sends control signals to the microcontroller via:
+     - UART (Serial) / GPIO / USB
+
+5. **Microcontroller Control System**
+   - The microcontroller receives commands and handles real-time control:
+     - Servo motor actuation
+     - Timing and movement coordination
+
+6. **Actuation System**
+   - Servo motors perform:
+     - Opening mechanism
+     - Flap control for sorting
+     - Bin rotation
+
+7. **Sensor Feedback**
+   - Ultrasonic sensor detects bin capacity
+   - Feedback is used to prevent overflow
+
+8. **User Feedback**
+   - LED indicators display classification results
+
+---
+
 ## 📷 Images
 <img src="assets/images/allowed plastic type.jpg" width="500"/>
 <img src="assets/images/side view of the machine.jpg" width="500"/>
