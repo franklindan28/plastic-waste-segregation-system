@@ -24,3 +24,5 @@ This project uses YOLOv8 and microcontroller automation to classify and sort pla
 
 ## 👨‍💻 Author
 Franklin D. Dañas Jr
+
+For more details about the system design, implementation, or deployment, feel free to contact me. I’m happy to discuss the project further or collaborate on similar work.
